@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6e892dd6.css",
+    "main.js": "/static/js/main.7f13dafd.js",
+    "static/js/787.dc9ee2bf.chunk.js": "/static/js/787.dc9ee2bf.chunk.js",
+    "static/media/tab.jpg": "/static/media/tab.6bef876c5b9a62476e01.jpg",
+    "static/media/112.jpg": "/static/media/112.339385472bb1136bf15a.jpg",
+    "static/media/misson.jpg": "/static/media/misson.5b1358e11fa8f8aba46d.jpg",
+    "static/media/ab.png": "/static/media/ab.1235c67585cba15e69b6.png",
+    "static/media/brith.jpg": "/static/media/brith.33cc1d795a3d94a93187.jpg",
+    "static/media/par.jpg": "/static/media/par.3d9213f11ec7969e8378.jpg",
+    "static/media/download.png": "/static/media/download.e88d30b95581b3e545f8.png",
+    "static/media/2.jpg": "/static/media/2.9c51a18c94f7e381f82a.jpg",
+    "static/media/3.jpg": "/static/media/3.9193fd03a5623c901318.jpg",
+    "static/media/avplogo.png": "/static/media/avplogo.66952988d32f1d20ab2b.png",
+    "static/media/table.png": "/static/media/table.acf445493cf5eccc9834.png",
+    "static/media/1.jpg": "/static/media/1.3a6a6d59e175e032c4fb.jpg",
+    "static/media/11.jpg": "/static/media/11.f2045663e80ee2bb2e40.jpg",
+    "index.html": "/index.html",
+    "main.6e892dd6.css.map": "/static/css/main.6e892dd6.css.map",
+    "main.7f13dafd.js.map": "/static/js/main.7f13dafd.js.map",
+    "787.dc9ee2bf.chunk.js.map": "/static/js/787.dc9ee2bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6e892dd6.css",
+    "static/js/main.7f13dafd.js"
+  ]
+}

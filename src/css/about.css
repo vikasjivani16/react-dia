@@ -1,0 +1,284 @@
+.ab_banner{
+    height: 100%;
+    width: 100%;
+    padding-top: 80px;
+}
+.ab_banner img{
+    height: 100%;
+    width: 100%;
+}
+.about_avp_detail{
+    margin-top: -250px;
+}
+.about_avp_detail h2{
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+    font-weight: 700;
+}
+.avp_detail p{
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: #000000;
+    font-size: 22px;
+    width: 75%;
+    margin: auto;
+}
+.our_vision{
+    padding: 5rem 0rem;
+}
+.vision_taxt h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #000000; 
+    font-weight: 700;
+}
+.vision_taxt h2 span{
+    color: #777b7e;
+}
+.vision_datil p{
+    margin-bottom: 0px;
+    font-size: 22px;
+    color: #000000;
+}
+.dimond_img_main .dimond_img{
+    height: 100%;
+    width: 100%;
+}
+.dimond_img_main .dimond_img img{
+    height: 100%;
+    width: 100%;
+}
+.our_misson{
+    padding-bottom: 5rem;
+}
+.choose_avp{
+    width: 100%;
+    height: 100%;
+}
+.choose_avp img{
+    width: 100%;
+    height: 100%;
+}
+.choose_title h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #000000;
+    text-align: center;
+    font-weight: 700;
+}
+.detail_text h2{
+    font-size: 28px;
+    text-align: center;
+    color: #777b7e;
+    margin-bottom: 0px;
+}
+.detail_text p{
+    font-size: 22px;
+    color: #000000;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.choose_detail{
+    padding-bottom: 5rem;
+}
+
+/* ********************************** 320 to 575 ************************************* */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .our_vision{
+        padding: 3rem 0rem;
+    }
+    
+    .about_avp_detail{
+        margin-top: 0px;
+    }
+    .about_avp_detail h2{
+        color: #000000;
+        font-size: 24px;
+    }
+    .avp_detail p{
+        width: 100%;
+        font-size: 18px;   
+    }
+    .ab_order{
+        order: 1 !important;
+    }
+    .ab_order2{
+        order: 2 !important;
+    }
+    .vision_taxt h2{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .vision_datil p{
+        font-size: 18px;
+    }
+    .our_misson{
+        padding-bottom: 3rem;
+    }
+    .choose_title h2{
+        font-size: 24px;
+    }
+    .choose_detail{
+        margin-top: 2rem !important;
+    }
+    .detail_text h2{
+        font-size: 22px;
+    }
+    .detail_text p{
+        width: 100%;
+        font-size: 18px;
+    }
+    .choose_detail{
+        padding-bottom: 3rem !important;
+    }
+}
+
+/* ********************************** 575 to 767 ************************************* */
+
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    .our_vision{
+        padding: 3rem 0rem;
+    }
+    
+    .about_avp_detail{
+        margin-top: 0px;
+    }
+    .about_avp_detail h2{
+        color: #000000;
+        font-size: 26px;
+    }
+    .avp_detail p{
+        width: 100%;
+        font-size: 18px;   
+    }
+    .ab_order{
+        order: 1 !important;
+    }
+    .ab_order2{
+        order: 2 !important;
+    }
+    .vision_taxt h2{
+        margin-top: 25px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .vision_datil p{
+        font-size: 18px;
+    }
+    .our_misson{
+        padding-bottom: 3rem;
+    }
+    .choose_title h2{
+        font-size: 26px;
+    }
+    .choose_detail{
+        margin-top: 2rem !important;
+    }
+    .detail_text h2{
+        font-size: 24px;
+    }
+    .detail_text p{
+        width: 100%;
+        font-size: 18px;
+    }
+}
+
+/* ********************************** 767 to 991 ************************************* */
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .about_avp_detail{
+        margin-top: -100px;
+    }
+    .about_avp_detail h2{
+        color: #000000;
+        font-size: 28px;
+    }
+    .avp_detail p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .ab_order{
+        order: 1 !important;
+    }
+    .ab_order2{
+        order: 2 !important;
+    }
+    .vision_taxt h2{
+        margin-top: 2rem;
+        text-align: center;
+        font-size: 28px;
+    }
+    .vision_datil p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .our_vision{
+        padding: 4rem 0rem;
+    }
+    .our_misson{
+        padding-bottom: 4rem;
+    }
+    .choose_title h2{
+        font-size: 28px;
+    }
+    .detail_text h2{
+        font-size: 26px;
+    }
+    .detail_text p{
+        width: 100%;
+        font-size: 20px;
+    }
+    .choose_detail{
+        padding-bottom: 4rem;
+    }
+    .choose_detail{
+        margin-top: 2rem !important;
+    }
+
+}
+/* ********************************** 991 to 1198 ************************************* */
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    .about_avp_detail h2{
+        font-size: 32px;
+    }
+    .about_avp_detail{
+        margin-top: -150px;
+    }
+    .avp_detail p{
+        width: 90%;
+        font-size: 20px;
+    }
+    .our_vision{
+        padding: 4rem 0rem;
+    }
+    .vision_taxt h2{
+        font-size: 32px;
+    }
+    .vision_datil p{
+        font-size: 20px;
+    }
+    .our_misson{
+        padding-bottom: 4rem;
+    }
+    .choose_title h2{
+        font-size: 32px;
+    }
+    .detail_text h2{
+        font-size: 26px;
+    }
+    .detail_text p{
+        font-size: 20px;
+        width: 85%;
+    }
+}

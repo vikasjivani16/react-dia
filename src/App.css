@@ -1,0 +1,870 @@
+* {
+    font-family: 'Poppins';
+    text-decoration: none !important;
+    font-family: "gothic" !important;
+    letter-spacing: 1.2px !important;
+}
+
+.web_p {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.flex {
+    display: flex;
+}
+
+.navbar {
+    background-color: #fafafa;
+    padding: 10px;
+}
+
+.logo-img {
+    user-select: none;
+    height: 50px;
+    width: 100px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+.nav-link {
+    color: #000000;
+    transition: all 600ms 0s;
+    font-family: 'Poppins';
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 25px !important;
+    position: relative;
+    overflow: hidden;
+    transition: 00.5s;
+
+}
+
+.nav-link::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1.5px;
+    background-color: #777b7e;
+    left: -100%;
+    bottom: 0px;
+    transition: 00.5s;
+}
+
+.nav-link:hover {
+    color: #222021;
+    transition: all 600ms 0s;
+}
+
+.nav-link:hover::after {
+    left: 0px;
+    transition: 00.5s;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #222021 !important;
+}
+
+.login-button .nav-link {
+    margin: 0px 7px;
+}
+
+.sign-in .nav-link {
+    border: solid 1px #363636;
+    border-radius: 40px;
+    padding: 7px 20px !important;
+    transition: all 600ms 0s;
+}
+
+.sign-in .nav-link:hover {
+    background-color: #363636;
+    color: white !important;
+    ;
+    transition: all 600ms 0s;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-link .nav-link {
+    position: relative;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .show>.nav-link {
+    color: #363636 !important;
+}
+
+.navbar-link .nav-link:hover::before {
+    width: 100%;
+    display: block;
+}
+.navbar-toggler-icon{
+    background-image: url(../src/img/menu.png) !important;
+    background-color: transparent;
+    height: 40px;
+    border: transparent !important;
+    outline: transparent !important;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+/* ********************************** 320 to 991 ************************************* */
+
+@media (min-width: 320px) and (max-width: 991.98px) {
+    .navbar-nav{
+        width: 120px !important;
+    }
+}
+
+/* ****************************Home page banner****************************** */
+
+
+.main_banner {
+    background-image: url(../src/img/11.jpg);
+    background-repeat: no-repeat;
+    height: 685px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+
+.main_banner_bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    align-items: center;
+}
+
+.main_banner_heading {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.main_banner_heading h2 {
+    font-size: 36px;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.main_banner_text {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.main_banner_text p {
+    font-size: 24px;
+}
+
+.readmore_main a {
+    color: white;
+    background-color: #777b7e;
+    width: 130px;
+    padding: 10px 0px;
+    font-size: 16px;
+    border: solid 1.5px #777b7e;
+    border-radius: 25px;
+    transition: 0.5s;
+    font-weight: 700;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.readmore_main a:hover {
+    background-color: transparent;
+    border: 1.5px solid #777b7e;
+    border-radius: 25px;
+    color: #777b7e;
+    transition: 0.5s;
+}
+.banner_responsive{
+    display: none;
+}
+.banner_img_responsive{
+    display: none;
+}
+
+/* ********************************** Banner Media 320 to 575 ************************************* */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .banner_img_responsive{
+        height: 100%;
+        width: 100%;
+        display: block;
+        padding-top: 80px !important;
+    }
+    .banner_img_responsive img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .main_banner {
+        display: none;
+    }
+    .banner_responsive{
+        display: block;
+    }
+    .banner_responsive .main_banner_heading_r h2 {
+        font-size: 24px;
+        font-family: 'Poppins';
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .banner_responsive .main_banner_text_r p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .banner_responsive .readmore_main_r {
+        margin-top: 2rem !important;
+    }
+
+    .banner_responsive .readmore_main_r a {
+        color: white;
+        background-color: #777b7e;
+        width: 100px;
+        padding: 7px 0px;
+        font-size: 14px;
+        border: solid 1.5px #777b7e;
+        border-radius: 25px;
+        transition: 0.5s;
+        font-weight: 700;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .banner_responsive .readmore_main_r a:hover {
+        background-color: transparent;
+        border: 1.5px solid #777b7e;
+        border-radius: 25px;
+        color: #777b7e;
+        transition: 0.5s;
+    }
+
+    .main_banner_bg {
+        display: none;
+    }
+
+}
+
+/* ********************************** Banner Media 575 to 767 ************************************* */
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+
+    .banner_img_responsive{
+        height: 100%;
+        width: 100%;
+        display: block;
+        padding-top: 80px !important;
+    }
+    .banner_img_responsive img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .banner_padding {
+        padding-top: 80px;
+    }
+
+    .main_banner {
+        display: none;
+    }
+    .banner_responsive{
+        display: block;
+    }
+    .banner_responsive .main_banner_heading_r h2 {
+        font-size: 26px;
+        font-family: 'Poppins';
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .banner_responsive .main_banner_text_r p {
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .banner_responsive .readmore_main_r {
+        margin-top: 2rem !important;
+    }
+
+    .banner_responsive .readmore_main_r a {
+        color: white;
+        background-color: #777b7e;
+        width: 100px;
+        padding: 7px 0px;
+        font-size: 14px;
+        border: solid 1.5px #777b7e;
+        border-radius: 25px;
+        transition: 0.5s;
+        font-weight: 700;
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .banner_responsive .readmore_main_r a:hover {
+        background-color: transparent;
+        border: 1.5px solid #777b7e;
+        border-radius: 25px;
+        color: #777b7e;
+        transition: 0.5s;
+    }
+
+    .main_banner_bg {
+        display: none;
+    }
+
+}
+
+/* ********************************** Banner Media 767 to 991 ************************************* */
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .main_banner{
+        height: 550px;
+    }
+    .main_banner_heading h2{
+        font-size: 28px;
+    }
+    .main_banner_text{
+        width: 90%;
+    }
+    .main_banner_text p{
+        font-size: 20px;
+        margin-bottom: 0px;
+    }
+    .main_banner_heading{
+        margin-top: 80px;
+    }
+    .readmore_main{
+        margin-top: 2rem !important;
+    }
+}
+/* ********************************** Banner Media 991 to 1198 ************************************* */
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    .main_banner_heading h2{
+        font-size: 32px;
+    }
+    .main_banner_text p{
+        font-size: 22px;
+    }
+    .main_banner_heading{
+        margin-top: 80px;
+    }
+
+}
+
+
+/* **************************** Home page our shapes ****************************** */
+
+.our_shapes {
+    padding-top: 5rem;
+}
+.shapes_title h2 {
+    color: #000000;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+
+.shapes_title h2 span {
+    color: #777b7e;
+}
+
+.shapes_img {
+    height: 100%;
+    width: 100%;
+}
+
+.shapes_img img {
+    height: 100%;
+    width: 100%;
+}
+
+/* ********************************** our shapes Media 320 to 575 ************************************* */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .shapes_title h2{
+        font-size: 24px;
+    }
+    .our_shapes{
+        padding-top: 3rem !important;
+    }
+    .shapes_img{
+        margin-top: 1.5rem !important;
+    }
+}
+
+/* ********************************** our shapes Media 575 to 767 ************************************* */
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .shapes_title h2{
+        font-size: 26px;
+    }
+    .our_shapes{
+        padding-top: 3rem !important;
+    }
+    .shapes_img{
+        margin-top: 1.5rem !important;
+    }
+}
+
+/* ********************************** our shapes Media 767 to 991 ************************************* */
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .shapes_title h2{
+        font-size: 28px;
+    }
+    .our_shapes{
+        padding-top: 4rem !important;
+    }
+}
+
+/* ********************************** our shapes Media 991 to 1199 ************************************* */
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    .shapes_title h2{
+        font-size: 32px;
+    }
+    .our_shapes{
+        padding-top: 4rem;
+    }
+}
+    
+
+
+
+
+/* ********************************** birth of diamond ************************************* */
+
+.brith_title h2 {
+    font-size: 36px;
+    color: #000000;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.brith_title h2 span {
+    color: #777b7e;
+}
+
+.brith_text p {
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 1px;
+    margin-bottom: 0px;
+}
+
+.brith_text p span {
+    color: #777b7e;
+    font-size: 24px;
+}
+
+.brith_img {
+    height: 100%;
+    width: 100%;
+}
+
+.brith_img img {
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ************************** birth of diamond Media 320 to 575 ***************************** */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .web_p{
+        padding: 3rem 0rem !important;
+    }
+    .brith_title h2{
+        font-size: 24px;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0px;
+    }
+    .birth_order_img{
+        order: 1 !important;
+    }
+    .birth_order_text{
+        order: 2 !important;
+    }
+    .brith_text p{
+        font-size: 18px;
+        margin-top: 1rem !important;
+        text-align: center;
+
+    }
+    .brith_text p span{
+        font-size: 20px;
+    }
+}
+
+/* ********************************** birth of diamond Media 575 to 767 ************************************* */
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .web_p{
+        padding: 3rem 0rem !important;
+    }
+    .brith_title h2{
+        font-size: 26px;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 0px;
+    }
+    .birth_order_img{
+        order: 1 !important;
+    }
+    .birth_order_text{
+        order: 2 !important;
+    }
+    .brith_text p{
+        font-size: 18px;
+        margin-top: 1rem !important;
+        text-align: center;
+
+    }
+    .brith_text p span{
+        font-size: 20px;
+    }
+
+}
+/* ********************************** birth of diamond Media 767 to 991 ************************************* */
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .birth_order_img{
+        order: 1 !important;
+    }
+    .birth_order_text{
+        order: 2 !important;
+    }
+    .brith_title h2{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .brith_text p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .brith_text p span{
+        font-size: 22px;
+    }
+    .web_p{
+        padding: 4rem 0rem !important;
+    }
+
+}
+
+/* ********************************** birth of diamond Media 991 to 1199 ************************************* */
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    .brith_title h2{
+        font-size: 32px;
+    }
+    .brith_text p{
+        font-size: 20px;
+    }
+    .brith_text p span{
+        font-size: 22px;
+    }
+    .web_p{
+        padding: 4rem 0rem !important;
+    }
+}
+    
+
+
+/* ****************************  journey of diamond  ****************************** */
+
+.man_made_prosess {
+    padding-bottom: 5rem;
+}
+
+.diamonds_prosess h2 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.diamonds_prosess h2 span {
+    color: #777b7e;
+}
+
+.prosess_img {
+    height: 100%;
+    width: 100%;
+}
+
+.prosess_img img {
+    height: 100%;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.prosess_img img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+.name_img h4 {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 0px;
+}
+
+.name_img h4:hover {
+    color: #777b7e;
+    transition: 0.5s;
+}
+
+/* ****************************  journey of diamond 320 to 575 ****************************** */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .diamonds_prosess h2{
+        font-size: 24px;
+    }
+    .prosess_img img:hover{
+        transform: scale(0.9);
+    }
+    .name_img h4{
+        margin-bottom: 2rem;
+    }
+    .man_made_prosess{
+        padding: 3rem 0rem;
+        background-color: #f5f5f5;
+        margin-bottom: 3rem;
+    }
+    .m_0{
+        margin-bottom: 0px !important;
+    }
+}
+
+/* ********************************** journey of diamond Media 575 to 767 ************************************* */
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .diamonds_prosess h2{
+        font-size: 26px;
+    }
+    .prosess_img img:hover{
+        transform: scale(0.9);
+    }
+    .name_img h4{
+        margin-bottom: 0rem;
+    }
+    .man_made_prosess{
+        padding: 3rem 0rem;
+        background-color: #f5f5f5;
+        margin-bottom: 3rem;
+    }
+    .m_0{
+        margin-bottom: 0px !important;
+    }
+    .m_responsive{
+        margin-top: 3rem !important;
+    }
+}
+
+/* ********************************** journey of diamond Media 767 to 991 ************************************* */
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .diamonds_prosess h2{
+        font-size: 28px;
+    }
+    .man_made_prosess{
+        padding-bottom: 4rem;
+    }
+}
+
+/* ********************************** journey of diamond Media 991 to 1199 ************************************* */
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    .diamonds_prosess h2{
+        font-size: 32px;
+    }
+    .man_made_prosess{
+        padding-bottom: 4rem;
+    }
+}
+
+
+/* ****************************  Comparing of diamond  ****************************** */
+
+.comparing_title h2{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.comparing_title h2 span{
+    color: #777b7e;
+}
+.comparing_diamond{
+    background-image: url(../src/img/tab.jpg);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    margin:3rem 0rem 5rem 0rem;
+    position: relative;
+}
+.comparing_diamond_bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.table_img{
+    height: 100%;
+    width: 100%;
+}
+.table_img img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ************************** Comparing of diamond 320 to 575 ***************************** */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    .comparing_title h2{
+        font-size: 24px;
+    }
+    .comparing_diamond{
+        height: 425px;
+        margin:3rem 0rem 3rem 0rem;
+    }
+}
+
+/* ********************************** Comparing of diamond 575 to 767 ************************************* */
+
+@media (min-width: 575.98px) and (max-width: 767.98px) {
+    .comparing_title h2{
+        font-size: 26px;
+    }
+    .comparing_diamond{
+        height: 425px;
+        margin:3rem 0rem 3rem 0rem;
+    }
+}
+/* ********************************** Comparing of diamond 767 to 991 ************************************* */
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .comparing_title h2{
+        font-size: 28px;
+    }
+    .comparing_diamond{
+        height: 600px;
+    }
+}
+/* ********************************** Comparing of diamond 991 to 1199 ************************************* */
+
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+    .comparing_title h2{
+        font-size: 32px;
+    }
+    .comparing_diamond{
+        height: 600px;
+        margin-bottom: 4rem;
+    }
+}
+
+
+
+
+/* **************************** footer ****************************** */
+
+.footer_main {
+    width: 100%;
+    padding: 30px 25px;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_main h2 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+
+/* ****************************footer  320 to 575****************************** */
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    .footer_main{
+        display: inherit;
+    }
+    .footer_main h2{
+        font-size: 14px;
+    }
+    .footer_m{
+        margin-top: 10px;
+    }
+}
+
+/* ********************************** footer 575 to 767 ************************************* */
+
+@media (min-width: 575.98px) and (max-width: 767.98px){
+    .footer_main{
+        display: inherit;
+    }
+    .footer_main h2{
+        font-size: 16px;
+    }
+    .footer_m{
+        margin-top: 10px;
+    }
+}
+/* ********************************** footer 767 to 991 ************************************* */
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .footer_main h2{
+        font-size: 14px;
+    }
+}
+
