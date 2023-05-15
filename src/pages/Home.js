@@ -40,7 +40,7 @@ const Home = () => {
             <h2>AN ETHICALLY NURTURED BEAUTY  WITH A SUSTAINABLE PROCESS.</h2>
           </div>
           <div className='main_banner_text_r mt-3'>
-            <p>Lab created Diamond have the same Attributes of real Diamonds, Physically, Chemically and Optically. This Diamonds are Exquisite, Poket - friendly and are made Righteously, Causing no harm to Environment.  </p>
+            <p>Lab created Diamond have the same Attributes of real Diamonds, Physically, Chemically and Optically. This Diamonds are Exquisite, Pocket - friendly and are made Righteously, Causing no harm to Environment.  </p>
           </div>
           <div className='readmore_main_r mt-5'>
             <a href='About'>Read More</a>
@@ -119,7 +119,7 @@ const Home = () => {
                   <img src={rough} />
                 </div>
                 <div className='name_img'>
-                  <h4>MAN-MADE GROWN DIAMOND ROUGH</h4>
+                  <h4>LAB GROWN DIAMOND ROUGH</h4>
                 </div>
               </div>
             </Col>
@@ -130,7 +130,7 @@ const Home = () => {
                   <img src={manmade} />
                 </div>
                 <div className='name_img'>
-                  <h4 className='m_0'>MAN-MADE DIAMOND</h4>
+                  <h4 className='m_0'>POLISHED LABGROWN DIAMOND</h4>
                 </div>
               </div>
             </Col>

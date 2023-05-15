@@ -510,6 +510,7 @@
         font-size: 20px;
         margin-top: 2rem;
         margin-bottom: 0px;
+        text-align: center;
     }
     .birth_order_img{
         order: 1 !important;
@@ -519,6 +520,7 @@
     }
     .brith_text p{
         font-size: 16px;
+        text-align: center;
         margin-top: 1rem !important;
     }
     .brith_text p span{
@@ -536,6 +538,7 @@
         font-size: 20px;
         margin-top: 2rem;
         margin-bottom: 0px;
+        text-align: center;
     }
     .birth_order_img{
         order: 1 !important;
@@ -546,6 +549,7 @@
     .brith_text p{
         font-size: 16px;
         margin-top: 1rem !important;
+        text-align: center;
     }
     .brith_text p span{
         font-size: 17px;
