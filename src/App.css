@@ -30,15 +30,13 @@
 }
 
 .nav-link {
-    color: #000000;
-    transition: all 600ms 0s;
-    font-family: 'Poppins';
-    font-size: 18px;
+    font-size: 15px;
     text-transform: uppercase;
     margin-right: 25px !important;
     position: relative;
     overflow: hidden;
     transition: 00.5s;
+    font-weight: 700;
 
 }
 
@@ -121,6 +119,11 @@
     outline: none;
     border: none;
 }
+.navbar-toggler{
+    border: none !important;
+    font-size: 16px;
+    padding: 0px !important;
+}
 
 /* ********************************** 320 to 991 ************************************* */
 
@@ -159,10 +162,8 @@
 }
 
 .main_banner_heading h2 {
-    font-size: 36px;
-    font-family: 'Poppins';
+    font-size: 30px;
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-weight: 700;
 }
 
@@ -173,7 +174,7 @@
 }
 
 .main_banner_text p {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .readmore_main a {
@@ -181,7 +182,7 @@
     background-color: #777b7e;
     width: 130px;
     padding: 10px 0px;
-    font-size: 16px;
+    font-size: 14px;
     border: solid 1.5px #777b7e;
     border-radius: 25px;
     transition: 0.5s;
@@ -227,15 +228,15 @@
         display: block;
     }
     .banner_responsive .main_banner_heading_r h2 {
-        font-size: 24px;
-        font-family: 'Poppins';
+        font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 1px;
         text-align: center;
+        font-weight: 700;
     }
 
     .banner_responsive .main_banner_text_r p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         margin-bottom: 0px;
     }
@@ -247,9 +248,9 @@
     .banner_responsive .readmore_main_r a {
         color: white;
         background-color: #777b7e;
-        width: 100px;
+        width: 120px;
         padding: 7px 0px;
-        font-size: 14px;
+        font-size: 12px;
         border: solid 1.5px #777b7e;
         border-radius: 25px;
         transition: 0.5s;
@@ -299,15 +300,14 @@
         display: block;
     }
     .banner_responsive .main_banner_heading_r h2 {
-        font-size: 26px;
-        font-family: 'Poppins';
+        font-size: 20px;
         text-transform: uppercase;
-        letter-spacing: 1px;
+        font-weight: 700;
         text-align: center;
     }
 
     .banner_responsive .main_banner_text_r p {
-        font-size: 18px;
+        font-size: 16px;
         text-align: center;
         margin-bottom: 0px;
     }
@@ -319,9 +319,9 @@
     .banner_responsive .readmore_main_r a {
         color: white;
         background-color: #777b7e;
-        width: 100px;
+        width: 120px;
         padding: 7px 0px;
-        font-size: 14px;
+        font-size: 12px;
         border: solid 1.5px #777b7e;
         border-radius: 25px;
         transition: 0.5s;
@@ -352,13 +352,13 @@
         height: 550px;
     }
     .main_banner_heading h2{
-        font-size: 28px;
+        font-size: 24px;
     }
     .main_banner_text{
         width: 90%;
     }
     .main_banner_text p{
-        font-size: 20px;
+        font-size: 18px;
         margin-bottom: 0px;
     }
     .main_banner_heading{
@@ -372,10 +372,10 @@
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     .main_banner_heading h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     .main_banner_text p{
-        font-size: 22px;
+        font-size: 18px;
     }
     .main_banner_heading{
         margin-top: 80px;
@@ -391,10 +391,9 @@
 }
 .shapes_title h2 {
     color: #000000;
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 1px;
     font-weight: 700;
     margin-bottom: 0px;
 }
@@ -417,7 +416,7 @@
 
 @media (min-width: 320px) and (max-width: 575.98px) {
     .shapes_title h2{
-        font-size: 24px;
+        font-size: 20px;
     }
     .our_shapes{
         padding-top: 3rem !important;
@@ -431,7 +430,7 @@
 
 @media (min-width: 575.98px) and (max-width: 767.98px) {
     .shapes_title h2{
-        font-size: 26px;
+        font-size: 20px;
     }
     .our_shapes{
         padding-top: 3rem !important;
@@ -445,7 +444,7 @@
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
     .shapes_title h2{
-        font-size: 28px;
+        font-size: 24px;
     }
     .our_shapes{
         padding-top: 4rem !important;
@@ -456,7 +455,7 @@
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     .shapes_title h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     .our_shapes{
         padding-top: 4rem;
@@ -470,9 +469,8 @@
 /* ********************************** birth of diamond ************************************* */
 
 .brith_title h2 {
-    font-size: 36px;
+    font-size: 30px;
     color: #000000;
-    letter-spacing: 1px;
     font-weight: 700;
 }
 
@@ -481,15 +479,14 @@
 }
 
 .brith_text p {
-    font-size: 22px;
+    font-size: 20px;
     color: #000000;
-    letter-spacing: 1px;
     margin-bottom: 0px;
 }
 
 .brith_text p span {
     color: #777b7e;
-    font-size: 24px;
+    font-size: 22px;
 }
 
 .brith_img {
@@ -510,8 +507,7 @@
         padding: 3rem 0rem !important;
     }
     .brith_title h2{
-        font-size: 24px;
-        text-align: center;
+        font-size: 20px;
         margin-top: 2rem;
         margin-bottom: 0px;
     }
@@ -522,13 +518,11 @@
         order: 2 !important;
     }
     .brith_text p{
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 1rem !important;
-        text-align: center;
-
     }
     .brith_text p span{
-        font-size: 20px;
+        font-size: 17px;
     }
 }
 
@@ -539,8 +533,7 @@
         padding: 3rem 0rem !important;
     }
     .brith_title h2{
-        font-size: 26px;
-        text-align: center;
+        font-size: 20px;
         margin-top: 2rem;
         margin-bottom: 0px;
     }
@@ -551,13 +544,11 @@
         order: 2 !important;
     }
     .brith_text p{
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 1rem !important;
-        text-align: center;
-
     }
     .brith_text p span{
-        font-size: 20px;
+        font-size: 17px;
     }
 
 }
@@ -571,16 +562,16 @@
         order: 2 !important;
     }
     .brith_title h2{
-        font-size: 28px;
+        font-size: 24px;
         text-align: center;
         margin-top: 2rem;
     }
     .brith_text p{
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
     .brith_text p span{
-        font-size: 22px;
+        font-size: 19px;
     }
     .web_p{
         padding: 4rem 0rem !important;
@@ -592,13 +583,13 @@
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     .brith_title h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     .brith_text p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .brith_text p span{
-        font-size: 22px;
+        font-size: 19px;
     }
     .web_p{
         padding: 4rem 0rem !important;
@@ -614,7 +605,7 @@
 }
 
 .diamonds_prosess h2 {
-    font-size: 36px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0px;
     color: #000000;
@@ -661,7 +652,11 @@
 
 @media (min-width: 320px) and (max-width: 575.98px) {
     .diamonds_prosess h2{
-        font-size: 24px;
+        font-size: 20px;
+    }
+    .name_img h4{
+        font-size: 16px;
+        font-weight: 700;
     }
     .prosess_img img:hover{
         transform: scale(0.9);
@@ -683,13 +678,14 @@
 
 @media (min-width: 575.98px) and (max-width: 767.98px) {
     .diamonds_prosess h2{
-        font-size: 26px;
+        font-size: 20px;
     }
     .prosess_img img:hover{
         transform: scale(0.9);
     }
     .name_img h4{
         margin-bottom: 0rem;
+        font-size: 16px;
     }
     .man_made_prosess{
         padding: 3rem 0rem;
@@ -708,7 +704,7 @@
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
     .diamonds_prosess h2{
-        font-size: 28px;
+        font-size: 24px;
     }
     .man_made_prosess{
         padding-bottom: 4rem;
@@ -719,7 +715,7 @@
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     .diamonds_prosess h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     .man_made_prosess{
         padding-bottom: 4rem;
@@ -730,12 +726,11 @@
 /* ****************************  Comparing of diamond  ****************************** */
 
 .comparing_title h2{
-    font-size: 36px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0px;
     color: #000000;
     text-align: center;
-    letter-spacing: 1px;
     font-weight: 700;
 }
 .comparing_title h2 span{
@@ -772,11 +767,14 @@
 
 @media (min-width: 320px) and (max-width: 575.98px) {
 
+    .comparing_title{
+        padding: 0px 7px;
+    }
     .comparing_title h2{
-        font-size: 24px;
+        font-size: 20px;
     }
     .comparing_diamond{
-        height: 425px;
+        height: 400px;
         margin:3rem 0rem 3rem 0rem;
     }
 }
@@ -785,7 +783,7 @@
 
 @media (min-width: 575.98px) and (max-width: 767.98px) {
     .comparing_title h2{
-        font-size: 26px;
+        font-size: 20px;
     }
     .comparing_diamond{
         height: 425px;
@@ -796,7 +794,7 @@
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
     .comparing_title h2{
-        font-size: 28px;
+        font-size: 24px;
     }
     .comparing_diamond{
         height: 600px;
@@ -806,7 +804,7 @@
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     .comparing_title h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     .comparing_diamond{
         height: 600px;
@@ -822,14 +820,17 @@
 .footer_main {
     width: 100%;
     padding: 30px 25px;
-    background-color: #d3d3d3;
+    background-color: #dcdcdc;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .footer_main h2 {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 0px;
+    width: 45%;
+    font-weight: 700;
 }
 
 
@@ -841,6 +842,7 @@
     }
     .footer_main h2{
         font-size: 14px;
+        width: 100%;
     }
     .footer_m{
         margin-top: 10px;
@@ -854,7 +856,8 @@
         display: inherit;
     }
     .footer_main h2{
-        font-size: 16px;
+        font-size: 14px;
+        width: 100%;
     }
     .footer_m{
         margin-top: 10px;

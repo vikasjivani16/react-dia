@@ -8,11 +8,11 @@
     width: 100%;
 }
 .about_avp_detail{
-    margin-top: -250px;
+    margin-top: -220px;
 }
 .about_avp_detail h2{
     color: #ffffff;
-    font-size: 36px;
+    font-size: 30px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -20,10 +20,9 @@
     font-weight: 700;
 }
 .avp_detail p{
-    letter-spacing: 1.5px;
     text-align: center;
     color: #000000;
-    font-size: 22px;
+    font-size: 20px;
     width: 75%;
     margin: auto;
 }
@@ -31,7 +30,7 @@
     padding: 5rem 0rem;
 }
 .vision_taxt h2{
-    font-size: 36px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0px;
     color: #000000; 
@@ -42,7 +41,7 @@
 }
 .vision_datil p{
     margin-bottom: 0px;
-    font-size: 22px;
+    font-size: 20px;
     color: #000000;
 }
 .dimond_img_main .dimond_img{
@@ -65,7 +64,7 @@
     height: 100%;
 }
 .choose_title h2{
-    font-size: 36px;
+    font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 0px;
     color: #000000;
@@ -73,13 +72,14 @@
     font-weight: 700;
 }
 .detail_text h2{
-    font-size: 28px;
+    font-size: 24px;
     text-align: center;
     color: #777b7e;
     margin-bottom: 0px;
+    font-weight: 700;
 }
 .detail_text p{
-    font-size: 22px;
+    font-size: 20px;
     color: #000000;
     text-align: center;
     width: 80%;
@@ -102,11 +102,11 @@
     }
     .about_avp_detail h2{
         color: #000000;
-        font-size: 24px;
+        font-size: 20px;
     }
     .avp_detail p{
         width: 100%;
-        font-size: 18px;   
+        font-size: 16px;   
     }
     .ab_order{
         order: 1 !important;
@@ -117,26 +117,26 @@
     .vision_taxt h2{
         margin-top: 25px;
         text-align: center;
-        font-size: 24px;
+        font-size: 20px;
     }
     .vision_datil p{
-        font-size: 18px;
+        font-size: 16px;
     }
     .our_misson{
         padding-bottom: 3rem;
     }
     .choose_title h2{
-        font-size: 24px;
+        font-size: 20px;
     }
     .choose_detail{
         margin-top: 2rem !important;
     }
     .detail_text h2{
-        font-size: 22px;
+        font-size: 18px;
     }
     .detail_text p{
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
     }
     .choose_detail{
         padding-bottom: 3rem !important;
@@ -155,11 +155,11 @@
     }
     .about_avp_detail h2{
         color: #000000;
-        font-size: 26px;
+        font-size: 20px;
     }
     .avp_detail p{
         width: 100%;
-        font-size: 18px;   
+        font-size: 16px;   
     }
     .ab_order{
         order: 1 !important;
@@ -170,26 +170,29 @@
     .vision_taxt h2{
         margin-top: 25px;
         text-align: center;
-        font-size: 26px;
+        font-size: 20px;
     }
     .vision_datil p{
-        font-size: 18px;
+        font-size: 16px;
     }
     .our_misson{
         padding-bottom: 3rem;
     }
     .choose_title h2{
-        font-size: 26px;
+        font-size: 20px;
     }
     .choose_detail{
         margin-top: 2rem !important;
     }
     .detail_text h2{
-        font-size: 24px;
+        font-size: 18px;
     }
     .detail_text p{
         width: 100%;
-        font-size: 18px;
+        font-size: 16px;
+    }
+    .choose_detail{
+        padding-bottom: 3rem;
     }
 }
 
@@ -197,15 +200,15 @@
 
 @media (min-width: 767.98px) and (max-width: 991.98px) {
     .about_avp_detail{
-        margin-top: -100px;
+        margin-top: -50px;
     }
     .about_avp_detail h2{
         color: #000000;
-        font-size: 28px;
+        font-size: 24px;
     }
     .avp_detail p{
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
     .ab_order{
         order: 1 !important;
@@ -216,10 +219,10 @@
     .vision_taxt h2{
         margin-top: 2rem;
         text-align: center;
-        font-size: 28px;
+        font-size: 24px;
     }
     .vision_datil p{
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
     .our_vision{
@@ -229,14 +232,14 @@
         padding-bottom: 4rem;
     }
     .choose_title h2{
-        font-size: 28px;
+        font-size: 24px;
     }
     .detail_text h2{
-        font-size: 26px;
+        font-size: 22px;
     }
     .detail_text p{
         width: 100%;
-        font-size: 20px;
+        font-size: 18px;
     }
     .choose_detail{
         padding-bottom: 4rem;
@@ -250,35 +253,35 @@
 
 @media (min-width: 991.98px) and (max-width: 1199.98px) {
     .about_avp_detail h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     .about_avp_detail{
         margin-top: -150px;
     }
     .avp_detail p{
         width: 90%;
-        font-size: 20px;
+        font-size: 18px;
     }
     .our_vision{
         padding: 4rem 0rem;
     }
     .vision_taxt h2{
-        font-size: 32px;
+        font-size: 26px;
     }
     .vision_datil p{
-        font-size: 20px;
+        font-size: 18px;
     }
     .our_misson{
         padding-bottom: 4rem;
     }
     .choose_title h2{
-        font-size: 32px;
-    }
-    .detail_text h2{
         font-size: 26px;
     }
+    .detail_text h2{
+        font-size: 22px;
+    }
     .detail_text p{
-        font-size: 20px;
+        font-size: 18px;
         width: 85%;
     }
 }

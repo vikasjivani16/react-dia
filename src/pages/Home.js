@@ -22,7 +22,7 @@ const Home = () => {
                 <h2>AN ETHICALLY NURTURED BEAUTY <br /> WITH A SUSTAINABLE PROCESS.</h2>
               </div>
               <div className='main_banner_text mt-3'>
-                <p>Lab created Diamond have the same Attributes of real Diamonds, Physically, Chemically and Optically. This Diamonds are Exquisite, Poket - friendly and are made Righteously, Causing no harm to Environment.  </p>
+                <p>Lab created Diamond have the same Attributes of real Diamonds, Physically, Chemically and Optically. This Diamonds are Exquisite, Pocket - friendly and are made Righteously, Causing no harm to Environment.  </p>
               </div>
               <div className='readmore_main mt-5'>
                 <a href='About'>Read More</a>
@@ -43,7 +43,7 @@ const Home = () => {
             <p>Lab created Diamond have the same Attributes of real Diamonds, Physically, Chemically and Optically. This Diamonds are Exquisite, Poket - friendly and are made Righteously, Causing no harm to Environment.  </p>
           </div>
           <div className='readmore_main_r mt-5'>
-            <a href=''>Read More</a>
+            <a href='About'>Read More</a>
           </div>
         </div>
       </Container>
@@ -79,7 +79,7 @@ const Home = () => {
                       seed. The seed is placed in the <span>CVD</span> plasma chamber and
                       an intense environment of temperature and pressure is
                       created just like that found under the earth.
-                      Gases are infused and along with the right combination
+                      Gases are infused along with the right combination
                       of pressure and temperature conditions, carbon formations
                       develop into rough diamonds.
                     </p>

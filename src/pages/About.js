@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <Container>
                 <div className='about_avp_detail'>
-                    <h2>about <span>apv star</span></h2>
+                    <h2>about <span>avp star</span></h2>
                 </div>
                 <div className='avp_detail mt-4'>
                     <p>

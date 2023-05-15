@@ -79,8 +79,8 @@ const Contact = () => {
           </div>
 
           <Row className="mt-5 align-items-center contact_m">
-            <Col lg={3} md={0}></Col>
-            <Col lg={3} md={6} sm={6}>
+            <Col lg={2} md={0}></Col>
+            <Col lg={4} md={6} sm={6}>
               <div className="from_text">
                 <h6>Have any Enquiry?</h6>
                 <h6 className="mt-3">Connect to us directly at</h6>
@@ -90,7 +90,7 @@ const Contact = () => {
                 <h6 className="mt-3">and we"ll get back to you asap</h6>
               </div>
             </Col>
-            <Col lg={3} md={6} sm={6}>
+            <Col lg={4} md={6} sm={6}>
               <div className="from_data">
                 <input
                   type="text"
@@ -121,7 +121,7 @@ const Contact = () => {
                 />
               </div>
             </Col>
-            <Col lg={3} md={0}></Col>
+            <Col lg={2} md={0}></Col>
           </Row>
           {text && <h5 className="text-center text-danger m-2">{text}</h5>}
           <div className="drop_button mt-3">
