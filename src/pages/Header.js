@@ -23,12 +23,12 @@ const Header = () => {
         aria-labelledby="contained-modal-title-vcenter"
         centered
       >
-        <Modal.Header >
+        {/* <Modal.Header >
           <Modal.Title id="contained-modal-title-vcenter">
            Sign up
           </Modal.Title>
-        </Modal.Header>
-        <Modal.Body>
+        </Modal.Header> */}
+        {/* <Modal.Body>
             <div className='signup-form-section'>
               <div className='signup-form-input-section'>
                   <input type='text' placeholder='Username'/>
@@ -40,15 +40,15 @@ const Header = () => {
                   <input type='text' placeholder='Create Password'/>
               </div>
             </div>
-        </Modal.Body>
-        <Modal.Footer>
+        </Modal.Body> */}
+        {/* <Modal.Footer>
         <div className='signup-form-btn'>
         <a href="" >Sign up</a>
         </div>
         <div className='new-register-section'>
           <span>already login? <a href="">Sign in </a></span>
         </div>
-      </Modal.Footer>
+      </Modal.Footer> */}
       </Modal>
     );
   }
@@ -76,14 +76,14 @@ function MyVerticallyCenteredModal(props) {
           </div>
         </div>
       </Modal.Body>
-      {/* <Modal.Footer>
+      <Modal.Footer>
         <div className='login-form-btn'>
         <a href="" >Sign in</a>
         </div>
         <div className='new-register-section'>
           <span>New Registration ? <a href="">Sign up </a></span>
         </div>
-      </Modal.Footer> */}
+      </Modal.Footer>
     </Modal>
   );
 }

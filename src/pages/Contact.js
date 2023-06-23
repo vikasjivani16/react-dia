@@ -84,7 +84,7 @@ const Contact = () => {
               <div className="from_text">
                 <h6>Have any Enquiry?</h6>
                 <h6 className="mt-3">Connect to us directly at</h6>
-                <h6 className="mt-3">info@avpstar.com</h6>
+                <h6 className="mt-3">info@avpstar.co</h6>
                 <h6 className="mt-3">or</h6>
                 <h6 className="mt-3">Fill the Line</h6>
                 <h6 className="mt-3">and we"ll get back to you asap</h6>
